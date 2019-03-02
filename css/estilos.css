@@ -1,0 +1,20 @@
+#palco{
+	border: 1px solid red;
+	background-color: #ccc;
+	height: -webkit-fill-available;
+	position: relative;
+}
+
+#palco #fase-um{
+	border: 1px solid blue;
+	height: -webkit-fill-available;
+}
+
+#palco #boneco-jr{
+	width: 3em;
+	height: 5em;
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
