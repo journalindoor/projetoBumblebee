@@ -3,13 +3,13 @@
 var palco = document.getElementById('palco');
 var junin = document.getElementById('junin');
 var juninEsq = 0;
-var juninBai = 0;
 
 
 function qualSeta(e) {
 
-    if (e.keyCode == '38') {
+    if (e.keyCode == '38' || e.keyCode == '32') {
         console.log('seta cima');
+        pulando();
     }
     else if (e.keyCode == '40') {
         console.log('seta baixo');
@@ -32,8 +32,13 @@ function qualSeta(e) {
 
 document.onkeydown = qualSeta;
 
-function pula(){
+function pulando(){
 
+  junin.classList.add('pulando');
+  junin.addEventListener("animationend", fimDoPulo);
 
+}
 
+function fimDoPulo(){
+  this.classList.remove('pulando');
 }
