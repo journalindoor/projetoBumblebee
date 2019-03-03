@@ -1,16 +1,11 @@
 #palco{
-	border: 1px solid red;
+	outline: 1px solid red;
 	background-color: #ccc;
 	height: -webkit-fill-available;
 	position: relative;
 }
 
-#palco #fase-um{
-	border: 1px solid blue;
-	height: -webkit-fill-available;
-}
-
-#palco #boneco-jr{
+#palco #junin{
 	width: 3em;
 	height: 5em;
 	background-color: green;
