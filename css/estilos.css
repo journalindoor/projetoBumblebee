@@ -1,10 +1,17 @@
 /*Objetos*/
 
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 #palco{
 	outline: 1px solid red;
 	background-color: #ccc;
-	height: -webkit-fill-available;
+	height: 100%;
 	position: relative;
+	z-index: 0;
 }
 
 #palco #junin{
@@ -12,25 +19,16 @@
 	height: 5em;
 	background-color: green;
 	position: absolute;
-	bottom: 0;
+	bottom: 70px;
+	z-index: 2;
 	left: 0;
 }
-#palco #junin.pulando{
-	animation-name: pulando;
-	animation-duration: 0.5s;
-	animation-timing-function: linear;
-}
 
-/*Animações*/
-
-@keyframes pulando {
-	0%{
-		bottom:0px;
-	}
-	50%{
-		bottom:30px;
-	}
-	100%{
-		bottom:0px;
-	}
+#palco #rua{
+	background: #333;
+	height:30%;
+	position: absolute;
+	bottom: 60px;
+	z-index: 1;
+	width: 100%;
 }
