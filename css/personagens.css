@@ -6,9 +6,9 @@ html,body {
 	padding: 0;
 }
 
-#palco{
+.palco{
 	border: 1px solid red;
-	background-color: #999;
+	background-color: .999;
 	height: 100%;
 	position: relative;
 	z-index: 0;
@@ -16,15 +16,15 @@ html,body {
 	padding: 0;
 }
 
-#palco .mostruario{
-	outline: 2px solid #000;
+.palco .mostruario{
+	outline: 2px solid .000;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
 	position: relative;
 }
 
-#palco #moto{
+.palco .moto{
 	width: 9em;
 	height: 6em;
 	border: 1px solid;
@@ -34,8 +34,8 @@ html,body {
 	left: 15%;
 }
 
-#palco #banco{
-	background: #3c3c3c;
+.palco .banco{
+	background: .3c3c3c;
 	height: 1em;
 	width: 3em;
 	position: absolute;
@@ -46,8 +46,8 @@ html,body {
 	border-radius: 5px 5px 10px 20px;
 }
 
-#palco #garfo {
-	background: #ccc;
+.palco .garfo {
+	background: .ccc;
 	width: 0.5em;
 	height: 3em;
 	transform: rotate(-25deg);
@@ -57,7 +57,7 @@ html,body {
 	z-index: 4;
 }
 
-#palco #tanque{
+.palco .tanque{
 	width: 3.2em;
 	height: 1.5em;
 	background-color: yellow;
@@ -69,8 +69,8 @@ html,body {
 	border-radius: 25px 10px 20px 5px;
 }
 
-#palco #motor{
-	background: #ccc;
+.palco .motor{
+	background: .ccc;
 	height: 1em;
 	width: 2.5em;
 	position: absolute;
@@ -79,24 +79,24 @@ html,body {
 	border-radius: 10px 5px;
 }
 
-#palco #pneu-traseiro{
-	background: #a8a8a8;
+.palco .pneu-traseiro{
+	background: .a8a8a8;
 	height: 1.5em;
 	width: 1.5em;
 	border-radius: 25px;
 	position: absolute;
 	bottom: 0;
 	right: 5.3em;
-	border: 10px solid #000;
+	border: 10px solid .000;
 }
 
-#palco #pneu-dianteiro{
-	background: #a8a8a8;
+.palco .pneu-dianteiro{
+	background: .a8a8a8;
 	height: 1.5em;
 	width: 1.5em;
 	border-radius: 25px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	border: 8px solid #000;
+	border: 8px solid .000;
 }
