@@ -37,10 +37,10 @@ html,body {
 #palco #banco{
 	background: #3c3c3c;
 	height: 1em;
-	width: 2.6em;
+	width: 3em;
 	position: absolute;
 	top: 2.5em;
-	right: 4.8em;
+	right: 4.6em;
 	z-index: 4;
 	transform: rotate(10deg);
 	border-radius: 5px 5px 10px 20px;
@@ -50,7 +50,7 @@ html,body {
 	background: #ccc;
 	width: 0.5em;
 	height: 3em;
-	transform: rotate(-20deg);
+	transform: rotate(-25deg);
 	right: 1.4em;
 	top: 2em;
 	position: absolute;
@@ -100,4 +100,3 @@ html,body {
 	right: 0;
 	border: 8px solid #000;
 }
-
