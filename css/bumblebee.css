@@ -18,8 +18,8 @@ html, body {
 
 .palco .mostruario {
 	outline: 2px solid #000;
-	width: 50%;
-	height: 15em;
+	width: 50vw;
+	height: 30vw;
 	margin: 0 auto;
 	position: relative;
 }
@@ -30,11 +30,11 @@ html, body {
 }
 
 .palco .moto {
-	width: 9em;
-	height: 6em;
+	width: 40vw;
+	height: 20vw;
 	border: 1px solid;
 	position: absolute;
-	bottom: 25%;
+	bottom: 15%;
 	z-index: 2;
 	left: 0;
 	right: 0;
@@ -44,23 +44,23 @@ html, body {
 
 .palco .moto .banco {
 	background: #3c3c3c;
-	height: 1em;
-	width: 3em;
+	height: 3vw;
+	width: 10.5vw;
 	position: absolute;
-	top: 2.5em;
-	left: 0.5em;
+	top: 8.5vw;
+	left: 6.6vw;
 	z-index: 4;
-	transform: rotate(10deg);
+	transform: rotate(8deg);
 	border-radius: 5px 5px 10px 20px;
 }
 
 .palco .moto .garfo {
 	background: #ccc;
-	width: 0.5em;
-	height: 3em;
+	width: 1.2vw;
+	height: 11vw;
 	transform: rotate(-25deg);
-	left: 6.5em;
-	top: 2em;
+	left: 27.5vw;
+	top: 6vw;
 	position: absolute;
 	z-index: 4;
 }
@@ -75,14 +75,14 @@ html, body {
 }
 
 .palco .moto .tanque {
-	width: 3.2em;
-	height: 1.5em;
+	width: 9.5vw;
+	height: 4.5vw;
 	background-color: yellow;
 	position: absolute;
 	bottom: 0%;
 	z-index: 3;
-	left: 3.5em;
-	top: 2.2em;
+	left: 17.5vw;
+	top: 7.2vw;
 	border-radius: 25px 10px 20px 5px;
 }
 
@@ -90,54 +90,54 @@ html, body {
 	border-right: 2px solid #585858;
 	border-bottom: 7px solid #585858;
 	border-radius: 0 0 10px 0;
-	width: 5.2em;
-	height: 1em;
+	width: 16vw;
+	height: 3.3vw;
 	position: absolute;
-	top: 4em;
-	left: 0.7em;
+	top: 12vw;
+	left: 9vw;
 	z-index: 4;
 }
 
 .palco .moto .motor {
 	background: #ccc;
-	height: 1em;
-	width: 2.5em;
+	height: 3vw;
+	width: 8.5vw;
 	position: absolute;
-	top: 3.8em;
-	left: 3.2em;
+	top: 12vw;
+	left: 16vw;
 	border-radius: 10px 5px;
 }
 
 .palco .moto .pneu-traseiro {
 	background: #a8a8a8;
-	height: 1.5em;
-	width: 1.5em;
-	border-radius: 25px;
+	height: 4.5vw;
+	width: 4.5vw;
+	border-radius: 5vw;
 	position: absolute;
 	bottom: 0;
-	left: 0.3em;
-	border: 10px solid #000;
+	left: 7vw;
+	border: 2vw solid #000;
 }
 
 .palco .moto .pneu-dianteiro {
 	background: #a8a8a8;
-	height: 1.5em;
-	width: 1.5em;
-	border-radius: 25px;
+	height: 4.5vw;
+	width: 4.5vw;
+	border-radius: 25vw;
 	position: absolute;
 	bottom: 0;
-	left: 6em;
-	border: 8px solid #000;
+	left: 26.5vw;
+	border: 1.5vw solid #000;
 }
 
 .palco .moto .farol {
 	background: #fffb83;
-	height: 1em;
-	width: 0.7em;
+	height: 3vw;
+	width: 2vw;
 	position: absolute;
-	top: 2.2em;
-	left: 6.5em;
-	border-radius: 7px;
+	top: 6.9vw;
+	left: 27vw;
+	border-radius: 1vw;
 	cursor: pointer;
 }
 
@@ -154,8 +154,8 @@ html, body {
 
 .palco .moto .farol .tampa {
 	background: grey;
-	width: 0.5em;
+	width: 1vw;
 	position: absolute;
-	height: 1em;
+	height: 3vw;
 	z-index: 3;
 }
