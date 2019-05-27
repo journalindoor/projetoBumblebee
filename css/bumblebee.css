@@ -18,9 +18,9 @@ html, body {
 
 .palco .mostruario {
 	outline: 2px solid #000;
-	width: 200px;
-	height: 200px;
-	margin: 10px;
+	width: 50%;
+	height: 15em;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -36,7 +36,10 @@ html, body {
 	position: absolute;
 	bottom: 25%;
 	z-index: 2;
-	left: 15%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .palco .moto .banco {
@@ -135,6 +138,18 @@ html, body {
 	top: 2.2em;
 	left: 6.5em;
 	border-radius: 7px;
+	cursor: pointer;
+}
+
+.palco .moto .farol.aceso::after{
+	content: '';
+	height: 0.5em;
+	width: 0em;
+	display: block;
+	border-bottom: 20px solid transparent;
+	border-top: 5px solid transparent;
+	border-right: 5em solid rgba(255, 251, 131, 0.55);
+	margin-top: -2px;
 }
 
 .palco .moto .farol .tampa {
